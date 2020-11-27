@@ -1,0 +1,71 @@
+@import '~antd/es/style/themes/default.less';
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.box{
+	height: 180px;
+	// line-height: 180px;
+}
+.line{
+	// line-height: 50px;
+	height: 50px;
+}
+.right{
+	display: inline-block;
+}
+.right_line{
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+}
+.red_num{
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom:10px;
+	color:red;
+}
+.modelCon{
+	text-align: center;
+	:global {
+		.ant-upload-picture-card-wrapper{
+			width: auto;
+		}
+	}
+}
+
+.img_con{
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+.upStyle{
+	position: absolute;
+	top:20px;
+	left:16px;
+	columns: #333333;
+}
+.up_font{
+	font-size: 12px;
+}
+.plus{
+	font-size: 24px;
+	background-color: rgba(255,255,255,0.8);
+	border-radius:50%;
+}
+.coupon_title{
+	display:inline-block;
+	height: 30px;
+	line-height: 30px;
+}
+.overStyle{
+	display: inline-block;
+	width: 150px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
